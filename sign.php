@@ -2,6 +2,7 @@
 
 include('header.php');
 ?>
+<div id="amar_hack"><form action="actionpage.php" method="get">
 <h2 align="center"> Create account </h2>
             <h4 align="center"> Get started with you free account </h4>
             <div class="form-row" align="center">
@@ -28,11 +29,18 @@ include('header.php');
       <input id="cpassword" type="password" class="form-control" name="cpassword" placeholder="Confirm Password">
     </div>
     <br>
-    <button type="button" class="btn btn-success  center-block btn-group-justified " > Sign Up</button>
+
+
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
+      <input id="type" type="text" class="form-control" name="type" placeholder="Type">
+    </div>
+<br>
+    <input type="submit" value="Sign In">
   </div>
 </div>
   <h4 align="center">Already have an account? <a href="login.html" target="_blank" color:blue> Login</a></h4>
-  
+  </div>
     </div>
 <?php
 include('footer.php');

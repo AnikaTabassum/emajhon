@@ -50,24 +50,24 @@ session_start();
                 <li >
                     <a href="about.html" target="_blank">
                         <span class="glyphicon glyphicon-th-large"></span>
-                        About
+                        About Us
                     </a>
                     
                 </li>
                 <li >
                     <a href="#students" data-toggle="collapse" class="dropdown-toggle" >
                         <span class="glyphicon glyphicon-education"></span>
-                        Students
+                        Our Branches
                     </a>
                     <ul class="collapse list-unstyled" id="students">
                         <li class="active">
-                            <a href="bsse.html" target="_blank" >BSSE</a>
+                            <a href="bsse.html" target="_blank" >Motijheel</a>
                         </li>
                         <li class="active">
-                            <a href="bsse.html" target="_blank">MSSE</a>
+                            <a href="bsse.html" target="_blank">Kolabagan</a>
                         </li>
                         <li class="active">
-                            <a href="bsse.html" target="_blank">MIT</a>
+                            <a href="bsse.html" target="_blank">Uttara</a>
                         </li>
                         <li class="active">
                             <a href="bsse.html" target="_blank">PGDIT</a>
